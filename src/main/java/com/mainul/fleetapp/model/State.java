@@ -26,13 +26,13 @@ public class State {
 	private String name;
 	private String capital;
     private String code;
+	private String details;
 
 	@ManyToOne
 	@JoinColumn(name="countryid", insertable=false, updatable=false)
 	private Country country;
-	
 	private Integer countryid;
 	
-	private String details;
+
 	
 }

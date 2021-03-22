@@ -1,5 +1,6 @@
 package com.mainul.fleetapp.model;
 
+
 import java.util.List;
 
 import javax.persistence.Entity;
